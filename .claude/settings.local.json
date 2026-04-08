@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.bcgroup.co.nz)",
+      "WebFetch(domain:www.compassnzl.co.nz)"
+    ]
+  }
+}

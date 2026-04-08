@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | BC Group</title>
+  <meta name="description" content="Get in touch with BC Group. We're based in Auckland with offices in Christchurch and Melbourne. Call, email, or send us an enquiry online." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          <img src="images/logo.png" alt="BC Group" class="nav__logo-img" />
+        </a>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Company Profile</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="digital-log-book.html">Digital Log Book</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+          <li><a href="https://login.bcgroup.co.nz/" class="nav__login" target="_blank" rel="noopener">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span>/</span>Contact Us
+      </div>
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Send us an enquiry or reach out directly — our team is ready to help.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: Contact Details -->
+        <div class="contact-info">
+          <h3>Get in touch</h3>
+          <p>Whether you're looking to discuss your building compliance obligations, get a quote, or find out more about our services — we're here to help.</p>
+
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item__label">Phone</div>
+              <div class="contact-item__value"><a href="tel:+6495771061">+64 9 577 1061</a></div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item__label">Email</div>
+              <div class="contact-item__value"><a href="mailto:enquiries@bcgroup.co.nz">enquiries@bcgroup.co.nz</a></div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item__label">Office Address</div>
+              <div class="contact-item__value">90 Mays Road, Onehunga<br>Auckland 1061, New Zealand</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item__label">Postal Address</div>
+              <div class="contact-item__value">PO Box 14-675, Panmure<br>Auckland 1741, New Zealand</div>
+            </div>
+          </div>
+
+          <div style="margin-top:32px;padding:24px;background:#f7f9fc;border-radius:10px;border:1px solid #e2e8f0;">
+            <h4 style="margin-bottom:8px;color:#1a3560;">Client &amp; Staff Portal</h4>
+            <p style="font-size:0.9rem;margin-bottom:16px;">Already a BC Group client or staff member? Access your portal here.</p>
+            <a href="https://login.bcgroup.co.nz/" target="_blank" rel="noopener" class="btn btn--primary" style="font-size:0.88rem;padding:10px 22px;">Login to Portal</a>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form">
+          <h3>Send us an enquiry</h3>
+          <form action="https://formspree.io/f/enquiries@bcgroup.co.nz" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+64 9 000 0000" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Please select...</option>
+                <option value="BWOF Management">BWOF Management Enquiry</option>
+                <option value="IQP Inspections">IQP Inspection Services</option>
+                <option value="Digital Log Book">Digital Log Book</option>
+                <option value="General Enquiry">General Enquiry</option>
+                <option value="Quote Request">Quote Request</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message / Enquiry *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your building compliance needs..." required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="attachment">Attach Documentation <span style="font-weight:400;color:#718096;">(optional — compliance schedules or BWOF documents, PDF)</span></label>
+              <input type="file" id="attachment" name="attachment" accept=".pdf" style="padding:8px;" />
+            </div>
+            <button type="submit" class="btn btn--primary" style="width:100%;">Send Enquiry</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Your safety is our business</h2>
+      <p>BC Group has been keeping New Zealand buildings compliant since 1992. Let us take care of your compliance obligations.</p>
+      <a href="services.html" class="btn btn--outline">View Our Services</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo-text">BC <span>Group</span></div>
+          <div class="footer__tagline">Your Safety, Our Business</div>
+          <p>New Zealand's trusted Building Warrant of Fitness and compliance specialists since 1992. Auckland, Christchurch &amp; Melbourne.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Company Profile</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="digital-log-book.html">Digital Log Book</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">BWOF Management</a></li>
+            <li><a href="services.html">IQP Inspections</a></li>
+            <li><a href="services.html">Document Management</a></li>
+            <li><a href="services.html">Evacuation Services</a></li>
+            <li><a href="digital-log-book.html">Digital Log Book</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p class="footer__contact-line">90 Mays Road, Onehunga<br>Auckland 1061</p>
+          <p class="footer__contact-line"><a href="tel:+6495771061">+64 9 577 1061</a></p>
+          <p class="footer__contact-line"><a href="mailto:enquiries@bcgroup.co.nz">enquiries@bcgroup.co.nz</a></p>
+          <br>
+          <a href="https://login.bcgroup.co.nz/" target="_blank" rel="noopener" class="btn btn--outline" style="padding:9px 20px;font-size:0.85rem;">Client / Staff Login</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 Building Compliance Group Ltd. All rights reserved.</span>
+        <span>90 Mays Road, Onehunga, Auckland 1061 &nbsp;|&nbsp; PO Box 14-675, Panmure, Auckland 1741</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

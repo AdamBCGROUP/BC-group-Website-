@@ -34,7 +34,13 @@
       "Bash(python3 -c \"import mirror_check; print\\('syntax OK'\\)\")",
       "Bash(python3 -c \"import py_compile; py_compile.compile\\('portfolio_tracker.py', doraise=True\\); print\\('syntax OK'\\)\")",
       "Bash(python3 morning_update.py)",
-      "Bash(python3 -c \"import py_compile; py_compile.compile\\('portfolio_tracker.py', doraise=True\\); print\\('OK'\\)\")"
+      "Bash(python3 -c \"import py_compile; py_compile.compile\\('portfolio_tracker.py', doraise=True\\); print\\('OK'\\)\")",
+      "WebFetch(domain:bcgroup.co.nz)",
+      "Bash(unzip -o \"/Users/adamredshaw/Downloads/favicon_io.zip\" -d \"/Users/adamredshaw/Downloads/favicon_io\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/favicon.ico\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon.ico\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/favicon-32x32.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon-32x32.png\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/favicon-16x16.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon-16x16.png\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/apple-touch-icon.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /apple-touch-icon.png\")"
     ]
   }
 }

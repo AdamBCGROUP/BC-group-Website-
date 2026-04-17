@@ -10,7 +10,31 @@
       "WebFetch(domain:cepr.net)",
       "WebFetch(domain:www.ineteconomics.org)",
       "WebFetch(domain:health.iresearchnet.com)",
-      "WebFetch(domain:www.competitionpolicyinternational.com)"
+      "WebFetch(domain:www.competitionpolicyinternational.com)",
+      "WebFetch(domain:www.diageo.com)",
+      "WebFetch(domain:www.directorstalkinterviews.com)",
+      "Bash(brew install:*)",
+      "Bash(python3 -c \"import pdfminer\")",
+      "Bash(python3 -c \"import pypdf; print\\('pypdf ok'\\)\")",
+      "Bash(python3 -c \"import PyPDF2; print\\('PyPDF2 ok'\\)\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -c \"import openpyxl; print\\('openpyxl ok'\\)\")",
+      "Bash(python3 build_model.py)",
+      "Bash(python3 update_model.py)",
+      "WebFetch(domain:www.tradingview.com)",
+      "Bash(pandoc --version)",
+      "Bash(python3 -c \"import docx; print\\('ok'\\)\")",
+      "Bash(python3 make_word.py)",
+      "Bash(cp \"/Users/adamredshaw/Downloads/DGE Research Report/make_word.py\" ~/Desktop/\"DGE Research Report\"/make_word.py)",
+      "Bash(cp \"/Users/adamredshaw/Downloads/DGE Research Report/DGE_Equity_Research_Report.md\" ~/Desktop/\"DGE Research Report\"/DGE_Equity_Research_Report.md)",
+      "Bash(python3 -c ':*)",
+      "Bash(ls -lh ~/Desktop/\"DGE Research Report\"/*.docx)",
+      "Bash(xargs ls:*)",
+      "Bash(python3 -c \"import openpyxl, yfinance; print\\('deps OK'\\)\")",
+      "Bash(python3 -c \"import mirror_check; print\\('syntax OK'\\)\")",
+      "Bash(python3 -c \"import py_compile; py_compile.compile\\('portfolio_tracker.py', doraise=True\\); print\\('syntax OK'\\)\")",
+      "Bash(python3 morning_update.py)",
+      "Bash(python3 -c \"import py_compile; py_compile.compile\\('portfolio_tracker.py', doraise=True\\); print\\('OK'\\)\")"
     ]
   }
 }

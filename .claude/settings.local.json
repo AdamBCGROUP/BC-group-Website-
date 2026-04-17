@@ -40,7 +40,13 @@
       "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/favicon.ico\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon.ico\")",
       "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/favicon-32x32.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon-32x32.png\")",
       "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/favicon-16x16.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon-16x16.png\")",
-      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/apple-touch-icon.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /apple-touch-icon.png\")"
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io/apple-touch-icon.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /apple-touch-icon.png\")",
+      "Bash(unzip -o \"/Users/adamredshaw/Downloads/favicon_io \\(2\\).zip\" -d \"/Users/adamredshaw/Downloads/favicon_io2\")",
+      "Read(//Users/adamredshaw/Downloads/**)",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io2/favicon.ico\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon.ico\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io2/favicon-32x32.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon-32x32.png\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io2/favicon-16x16.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /favicon-16x16.png\")",
+      "Bash(cp \"/Users/adamredshaw/Downloads/favicon_io2/apple-touch-icon.png\" \"/Users/adamredshaw/Library/Mobile Documents/com~apple~CloudDocs/BC group Website /apple-touch-icon.png\")"
     ]
   }
 }
